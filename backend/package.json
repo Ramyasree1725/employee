@@ -1,15 +1,14 @@
 {
   "name": "employee-management-backend",
   "version": "1.0.0",
-  "description": "Employee Management System Backend - Large scale in-memory implementation",
+  "description": "Employee Management System Backend",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "nodemon src/server.js",
+    "dev": "node src/server.js",
     "generate-data": "node src/data/generateLargeData.js",
-    "test": "node --test tests/store.test.js || npx jest --passWithNoTests"
+    "test": "node --test ../../tests/store.test.js"
   },
-  "keywords": ["employee", "management", "hr", "in-memory"],
   "author": "Internal",
   "license": "UNLICENSED",
   "private": true,
@@ -19,8 +18,5 @@
     "uuid": "^10.0.0",
     "body-parser": "^1.20.3",
     "morgan": "^1.10.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.4"
   }
 }
