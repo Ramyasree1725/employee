@@ -106,5 +106,10 @@ employee-management/
 ## License
 
 Proprietary. All rights reserved.
+ HEAD
 
-## Frontend Components Updates
+## Frontend Components Updat
+HEAD
+## Analytics Payroll Updat
+## Data Generator Updates
+ origin/mai origin/main
