@@ -106,3 +106,5 @@ employee-management/
 ## License
 
 Proprietary. All rights reserved.
+
+## Frontend Components Updates
